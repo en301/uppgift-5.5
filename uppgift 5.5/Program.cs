@@ -16,7 +16,7 @@ namespace uppggift_5_5
                 fortsätt = Console.ReadLine();
                 Console.WriteLine("Ställ din fråga");
                 string fråga = Console.ReadLine();
-                Console.WriteLine(svar[slump.Next(11)]);
+                Console.WriteLine(svar[slump.Next(10)]);
             } while (fortsätt != "ja");
         }
     }
